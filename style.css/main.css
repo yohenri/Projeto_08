@@ -1,0 +1,94 @@
+@import url(default.css);
+@import url(imgs.css);
+
+
+.img1 {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    
+    
+    
+
+    
+
+}
+
+.img2 {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    
+    
+}
+
+.img3 {
+    display: inline-block;
+    width: 30%;
+    height: 25%;
+    left: 30px;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+.img1 {
+    
+    width: 50%;
+    height: auto;
+    float: left;
+    
+
+    
+
+}
+
+.img2 {
+    
+    width: 50%;
+    height: auto;
+    float: right;
+    
+}
+
+.img3 {
+    
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    
+    
+}
+
+}
+
+
+@media screen and (max-width: 426px) {
+    .img1 {
+        display: inline;
+        width: 100%;
+        height: auto;
+        
+    
+        
+    
+    }
+    
+    .img2 {
+        display: inline;
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .img3 {
+        display: inline;
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        
+    }
+    
+    }
